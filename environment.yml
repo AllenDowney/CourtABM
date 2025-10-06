@@ -1,0 +1,17 @@
+name: courtabm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyter
+  - jupyterlab
+  - ipython
+  - seaborn
+  - pip
+  - pip:
+    - mesa
